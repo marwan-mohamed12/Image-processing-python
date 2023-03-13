@@ -1,7 +1,7 @@
 # Image Processing in python using OpenCv
 
--   First You have to install openCv
-    pip install opencv-python
+- First You have to install openCv
+  ` pip install opencv-python `
 
 ## Image representaion
 
@@ -54,7 +54,7 @@ cv2.waitKey(0)
 cv2.imwrite("output.format", img, [cv2.IMWRITE_JPEG_QUALITY, qualityNum])
 qualityNum => usedt to control the quality of the image
 
-## Prop 1
+## Exercise 1
 
 Read image and then output width, height, channels and datatype
 img = cv2.imread("image.jpg")
@@ -64,7 +64,7 @@ print(width)
 print(channel)
 print(img.dtype)
 
-## Prop 2
+## Exercise 2
 
 Write a program that reads an image, store with a .png extension with a quality q=25, then show the image.
 img = cv2.imread("image.jpg")
