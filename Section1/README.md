@@ -29,10 +29,10 @@ PNG | .png
 
 ## Image Info
 
-height, widht, channels = img.shape
-(height, width) => dimention of image
-channels => refer to the different color components that make up an image
-img.dtype => get the datatype of img
+- height, widht, channels = img.shape
+- (height, width) => dimention of image
+- channels => refer to the different color components that make up an image
+- img.dtype => get the datatype of img
 
 ## Displaying Image
 
